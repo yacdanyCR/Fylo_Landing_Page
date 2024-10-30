@@ -1,0 +1,26 @@
+.banner__Section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 150px;
+}
+
+.banner__Title>h1 {
+    font-size: 35px;
+    text-align: justify;
+}
+
+.banner__Info {
+    margin-left: 1.5rem;
+}
+
+.banner__Section .banner {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.banner__Message>p {
+    margin-top: 1rem;
+    text-align: justify;
+}

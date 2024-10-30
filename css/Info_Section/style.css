@@ -1,0 +1,50 @@
+.info__Wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info__Section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 450px;
+}
+
+.info__Section>div {
+    margin-top: 2rem;
+}
+
+.info__Image--Section>img {
+    width: 450px;
+}
+
+.info__Message--Section {
+    text-align: center;
+    font-size: 1rem;
+}
+
+.info__Title--Section {
+    width: 550px;
+}
+
+.info__Title--Section>h1 {
+    font-size: 2rem;
+}
+
+.info__Title--Section {
+    text-align: center;
+}
+
+.info__info__Button--Section {
+    text-align: center;
+}
+
+.info__info__Button--Section>button {
+    cursor: pointer;
+    background-color: var(--button--bg--color);
+    padding: 1rem;
+    width: 250px;
+    border-radius: 1rem;
+}

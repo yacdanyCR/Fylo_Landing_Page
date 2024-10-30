@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+:root {
+    --main--body--bg--color: hsl(218, 28%, 13%);
+    --button--bg--color: hsl(176, 68%, 64%);
+}
+
+body {
+    font-size: 14px;
+}

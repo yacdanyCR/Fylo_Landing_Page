@@ -1,0 +1,48 @@
+.people__Section {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 100px;
+    text-align: justify;
+}
+
+.people>div {
+    margin-top: 1.5rem;
+}
+
+.people__Card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    background-color: var(--testimonial--bg--color);
+    padding: 2rem;
+    border-radius: 5px;
+    color: #ffff;
+    z-index: 10;
+}
+
+.people__Info {
+    display: flex;
+    align-items: center;
+}
+
+.people__Image>img {
+    width: 2rem;
+    border-radius: 15px;
+}
+
+.people__Info--data>div {
+    margin-left: 1rem;
+    margin-top: 10px;
+}
+
+.people__Section {
+    position: absolute;
+}
+
+.people__ {
+    position: absolute;
+    top: -36px;
+    left: 20px;
+}

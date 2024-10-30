@@ -1,0 +1,26 @@
+.card__Section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-top: 1.5rem;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+}
+
+.card .card__Mesage {
+    width: 300px;
+    text-align: center;
+}
+
+.card .card__Image {
+    margin-bottom: 1rem;
+}

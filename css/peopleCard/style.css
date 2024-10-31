@@ -2,8 +2,9 @@
     display: flex;
     justify-content: center;
     gap: 1.5rem;
-    margin-top: 100px;
+    padding-top: 100px;
     text-align: justify;
+    background-color: var(--main--body--bg--color);
 }
 
 .people>div {

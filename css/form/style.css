@@ -1,0 +1,48 @@
+.form__Section {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #ffff;
+}
+
+.form__Section .form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--testimonial--bg--color);
+    padding: 30px;
+    border-radius: 1rem;
+    width: 800px;
+}
+
+.form__Title>h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.form__Inputs--Container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.form__Inputs--Container>div {
+    margin-left: 1.5rem;
+}
+
+.form__Inputs--Container .form__input>input {
+    height: 20px;
+    width: 450px;
+    height: 40px;
+    border-radius: 1rem;
+}
+
+.form__Button>button {
+    background-color: var(--button--bg--color);
+    padding: 20px;
+    border-radius: 1rem;
+    cursor: pointer;
+    color: #ffff;
+}

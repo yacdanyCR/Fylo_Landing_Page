@@ -3,6 +3,8 @@
     justify-content: center;
     text-align: center;
     color: #ffff;
+    background-color: var(--main--body--bg--color);
+    padding: 50px 50px;
 }
 
 .form__Section .form {

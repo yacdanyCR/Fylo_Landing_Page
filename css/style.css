@@ -6,6 +6,10 @@
     border: 0;
 }
 
+ul {
+    list-style: none;
+}
+
 :root {
     --main--body--bg--color: hsl(218, 28%, 13%);
     --button--bg--color: hsl(176, 68%, 64%);

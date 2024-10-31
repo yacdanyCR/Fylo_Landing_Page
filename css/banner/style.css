@@ -25,3 +25,18 @@
     margin-top: 1rem;
     text-align: justify;
 }
+
+@media (max-width: 768px) {
+    .banner {
+        flex-direction: column;
+    }
+
+    .banner__Section {
+        padding: 80px 50px;
+
+    }
+
+    .banner__Image>img {
+        width: 300px;
+    }
+}

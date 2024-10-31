@@ -43,3 +43,10 @@
     top: -36px;
     left: 20px;
 }
+
+@media (max-width: 768px) {
+    .people__Section {
+        flex-wrap: wrap;
+        padding: 50px;
+    }
+}
